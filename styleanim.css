@@ -1,0 +1,45 @@
+.responsive {
+  height: 300px;
+  width: 800px;
+  background-color: red;
+  color: white;
+  font-size: 60px;
+  padding: 10px;
+}
+
+/*
+@media screen and (max-width: 1000px) {
+  .responsive {
+    width: 500px;
+  }
+}
+*/
+
+@media screen and (min-width: 1000px) {
+  .responsive {
+    width: 500px;
+  }
+}
+
+/*
+.animation1 {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  animation: color-change 4s forwards; /* animation identifier name and time*/
+/*forwards keeps the color in the last changed*/
+/*
+@keyframes color-change {
+  0% {
+    background-color: red;
+    transform: translateZ(0);
+  }
+  50% {
+    background-color: lime;
+  }
+  100% {
+    background-color: blue;
+    transform: translateZ(100px);
+  }
+}
+*/
